@@ -1,0 +1,104 @@
+form .error {
+	color: #A94442;
+	font-weight: bold;
+}
+
+.up_space {
+	margin-top: 5px;
+}
+
+.wfhome {
+	text-align: center;
+	font-size: 50px;
+}
+
+/* .note_table th, .admin_table td, .admin_table input{
+    height: 30px;
+    width: 200px;
+    border: 1px solid red;
+} */
+
+.note_table input:focus{ 
+    background-color: #FEE5AC;
+}
+
+.note_table input {
+    outline:none;
+    border:none;
+    width: 100%;
+}
+
+.note_tableSF input {
+	background-color: #FFFFCC;
+	padding-left:5px;
+    width: 100%;
+}
+
+.note_table .delete{
+    color: maroon;
+}
+
+.note_table .delete:hover{
+    color: red;
+}
+
+
+.loader_small {
+    background-image: url("/public/images/loader_small.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    margin-left: 25px;
+    height: 25px;
+    width: 25px;
+}
+
+.color_red {
+	color: red;
+}
+.color_green {
+	color: green;
+}
+
+.color_blue {
+	color: blue;
+}
+
+.color_cream {
+	background-color: #FCF8E3;
+}
+
+.home_info{
+	margin: 0 auto;
+	height: 200px;
+	width: 400px;
+	padding: 10px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+} 
+
